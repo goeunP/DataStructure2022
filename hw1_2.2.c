@@ -118,7 +118,7 @@ int main(void)
 	Stack heightstack;
 	int rowarr[1000];
 
-	printf("���ڿ� �Է�");
+	printf("¹®ÀÚ¿­ ÀÔ·Â");
 	scanf_s("%s", &mountain, sizeof(mountain));
 	InitStack(&mountainstack);
 	InitStack(&heightstack);
