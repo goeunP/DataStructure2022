@@ -1,3 +1,4 @@
+// /와\로 구성된 문자열을 입력받아 산의 형태로 출력하는 프로그램
 #include <stdio.h>
 #include <stdlib.h>
 
