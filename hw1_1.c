@@ -99,13 +99,13 @@ int main(void)
 	int num;
 	Queue numqueue;
 
-	printf("ÀüÃ¼ ¼ıÀÚ °³¼ö ÀÔ·Â:");
+	printf("ì „ì²´ ìˆ«ì ê°œìˆ˜ ì…ë ¥:");
 	scanf_s("%d", &N);
 
 	InitQueue(&numqueue);
 	for (int i = 0; i < N; i++)
 	{
-		printf("\n%d¹øÂ° ¼ıÀÚ:", i + 1);
+		printf("\n%dë²ˆì§¸ ìˆ«ì:", i + 1);
 		scanf_s("%d", &num);
 		InsertNum(&numqueue, num);
 
@@ -113,11 +113,11 @@ int main(void)
 		PrintQueue(&numqueue, count);
 		if (count % 2 == 0)
 		{
-			printf("Áß°£°ª: %d\n", EvenMiddleQUeue(&numqueue));
+			printf("ì¤‘ê°„ê°’: %d\n", EvenMiddleQUeue(&numqueue));
 		}
 		else
 		{
-			printf("Áß°£°ª: %d\n", OddMiddleQUeue(&numqueue));
+			printf("ì¤‘ê°„ê°’: %d\n", OddMiddleQUeue(&numqueue));
 		}
 	}
 	return 0;
