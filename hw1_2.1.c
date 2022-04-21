@@ -70,7 +70,7 @@ int main(void)
 	char mountain[1000];
 	Stack mountainstack;
 
-	printf("¹®ÀÚ¿­ ÀÔ·Â");
+	printf("Â¹Â®Ã€ÃšÂ¿Â­ Ã€Ã”Â·Ã‚");
 	scanf_s("%s", &mountain, sizeof(mountain));
 
 	for (int j = 0; mountain[j] != 0; j++)
@@ -97,9 +97,9 @@ int main(void)
 		}
 	}
 	if (IsEmpty(&mountainstack))
-		printf("³ôÀÌ : %d",height);
+		printf("Â³Ã´Ã€ÃŒ : %d",height);
 	else
-		printf("³ôÀÌ : 0");
+		printf("Â³Ã´Ã€ÃŒ : 0");
 	
 	return 0;
 }
